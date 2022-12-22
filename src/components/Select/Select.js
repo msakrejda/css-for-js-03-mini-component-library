@@ -37,9 +37,7 @@ const StyledSelect = styled.select`
   background-color: ${COLORS.transparentGray15};
   border-radius: 4px;
   border: none;
-  padding: 8px 8px;
-
-  padding-right: 36px;
+  padding: 8px 36px 8px 8px;
 
   &:hover {
     color: ${COLORS.black};
