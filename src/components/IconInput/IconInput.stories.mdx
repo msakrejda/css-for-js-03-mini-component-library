@@ -45,3 +45,53 @@ export const Template = (args) => <IconInput {...args} />;
 >
   {Template.bind({})}
 </Story>
+
+<Story
+  name="Small"
+  args={{
+    placeholder: 'Search…',
+    label: 'Search',
+    icon: 'search',
+    size: 'small',
+  }}
+>
+  {Template.bind({})}
+</Story>
+
+<Story
+  name="Large"
+  args={{
+    placeholder: 'Search…',
+    label: 'Search',
+    icon: 'search',
+    size: 'large',
+  }}
+>
+  {Template.bind({})}
+</Story>
+
+<Story
+  name="WithSpecifiedWitdh"
+  args={{
+    placeholder: 'Search…',
+    label: 'Search',
+    icon: 'search',
+    size: 'large',
+    width: 600
+  }}
+>
+  {Template.bind({})}
+</Story>
+
+<Story
+  name="WithEmailIcon"
+  args={{
+    placeholder: 'name@example.com',
+    label: 'Email',
+    icon: 'at-sign',
+    size: 'large',
+    width: 600
+  }}
+>
+  {Template.bind({})}
+</Story>
